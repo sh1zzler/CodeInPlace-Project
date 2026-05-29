@@ -27,7 +27,6 @@ for row in range(6):
 
 font = pygame.font.SysFont(None, 42)
 clock = pygame.time.Clock()
-clock.tick(60)
 game_over = False
 won = False
 
@@ -95,3 +94,4 @@ while True:
         screen.blit(font.render("Press R to play again", True, WHITE), (170, 260))
 
     pygame.display.flip()
+    clock.tick(60)
