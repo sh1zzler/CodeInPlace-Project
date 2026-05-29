@@ -1,8 +1,3 @@
-'Use left and right arrow keys to move the paddle'
-'Use R to restart after game over or win'
-'This is my first Python project, hope you like it! (only consists of 1 level but I may add more later)'
-
-
 import pygame
 import sys
 
